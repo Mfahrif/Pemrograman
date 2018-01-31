@@ -1,0 +1,26 @@
+program MencariNilaiMaksimum;
+uses crt;
+var
+r,i,n,a:integer;
+begin
+write ('Mencari Nilai Maksimum :');
+
+write ('Masukan Nilai Pertama :'); readln (r);
+write ('Masukan Nilai kedua :'); readln (i);
+write ('Masukan Nilai Ketiga :'); readln (n);
+write ('MAsukan Nilai Keempat :'); readln (a);
+
+write;
+if (r>i) and (r>n) and (r>a) then
+write (r,'Nilai Maksimum')
+else
+if (i>r) and (i>n) and (i>a) then
+write (i,'Nilai Maksimum')
+else
+if (n>r) and (n>i) and (n>a) then
+write (n,'Nilai Maksimum')
+else
+if (a>r) and (a>i) and (a>n) then
+write (a, 'Nilai Maksimum');
+readkey;
+end.
