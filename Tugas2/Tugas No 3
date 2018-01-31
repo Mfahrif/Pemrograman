@@ -1,0 +1,13 @@
+program luaspersegipanjang;
+uses crt;
+var
+p,l : integer;
+hasilkali : integer;
+
+begin
+write('masukan panjang=');readln(p);
+write('masukan lebar=');readln(l);
+hasilkali:=p*l;
+writeln(p,'*',l,'=',hasilkali);
+readkey;
+end.
